@@ -2,7 +2,7 @@ CrazyCar — Autonomous Racing Car Prototype
 
 An autonomous miniature racing car in development for the Crazy Car Competition at FH JOANNEUM, Graz, Austria.
 
-""Project Status" (https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge)" (https://github.com/Matei2010/CrazyCar_Prototype_-IN-DEVELOPMENT-) ""Robotics" (https://img.shields.io/badge/Focus-Robotics-blue?style=for-the-badge)" (https://github.com/Matei2010/CrazyCar_Prototype_-IN-DEVELOPMENT-) ""KiCad" (https://img.shields.io/badge/CAD-KiCad-314CB0?style=for-the-badge)" (https://www.kicad.org/)
+"Project Status" (https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge)" (https://github.com/Matei2010/CrazyCar_Prototype_-IN-DEVELOPMENT-) ""Robotics" (https://img.shields.io/badge/Focus-Robotics-blue?style=for-the-badge)" (https://github.com/Matei2010/CrazyCar_Prototype_-IN-DEVELOPMENT-) ""KiCad" (https://img.shields.io/badge/CAD-KiCad-314CB0?style=for-the-badge)" (https://www.kicad.org/)
 
 ---
 
