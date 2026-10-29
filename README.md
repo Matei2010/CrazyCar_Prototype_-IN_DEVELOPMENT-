@@ -218,11 +218,6 @@ If you want to contribute:
 
 Changes to electrical hardware should be checked for voltage compatibility, current limits, thermal behavior, and physical constraints before implementation.
 
-## 📄 License
-
-No license has been specified in this README. Check the repository for a `LICENSE` file before reusing, modifying, or distributing the project's files.
-
-If you intend to publish the design as open source, consider adding an appropriate license for the hardware and any future software components.
 
 ---
 
