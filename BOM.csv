@@ -1,0 +1,32 @@
+Reference,Qty,Value,Footprint,Distributor,Order_Part_No,Manufacturer_Part_No,Description
+MOT1 MOT2,2,N20 6V 3000RPM HP Motor,External_Motor,JSumo,JS15298 / JS15544 / JS16544,ProFast 3000RPM / MP12 / Core 6V,High Power Micro Gearmotor (See Voltage/RPM note)
+MOD1-MOD5,5,VL53L0X Breakout Module,GY-VL53L0XV2,AliExpress,1005006177829793,GY-VL53L0XV2 / GY-530,Time-of-Flight (ToF) Laser Ranging Sensor Module I2C
+U1,1,STM32C031C4Tx,Package_QFP:LQFP-48_7x7mm_P0.5mm,LCSC,C5456218,STM32C031C6T6,Arm Cortex-M0+ MCU 32KB Flash 12KB RAM 48MHz LQFP48 (Drop-in for C4T6)
+U2,1,MPU-6500,MPU-6500:QFN40P300X300X95-25N,LCSC,C50278,MPU-6500,6-Axis MotionTracking IMU Device QFN-24
+U3,1,TCA9548APWR,Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm,LCSC,C130026,TCA9548APWR,Low voltage 8-channel I2C switch with reset TSSOP-24
+U4 U5,2,RZ7889,RZ7889:SOIC127P600X175-8N,LCSC,C83668,RZ7889 (Alt: C22462543 RZ7889-MS),SOP-8 3A-5A Single-CH Bi-Directional DC Motor Driver
+IC1 IC2,2,TMCS1100A3QDR,TMCS1100A1:SOIC8_D_TEX,LCSC,C2873352,TMCS1100A3QDR,Hall-Effect Current Sensor 200mV/A SOIC-8
+U6,1,LD1117V33,Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown,LCSC,C283467,LD1117V33,800mA Fixed 3.3V Low Drop Voltage Regulator TO-220-3
+U7,1,QRE1113GR,OptoDevice:OnSemi_CASE100CY,LCSC,C232862,QRE1113GR,Miniature Reflective Optical Object Sensor SMD-4
+Q1,1,2N3904,Package_TO_SOT_THT:TO-92_Inline,LCSC,C118538,2N3904,0.2A 40V Small Signal NPN Transistor TO-92
+V1,1,1N4148,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,LCSC,C81598,1N4148,Small Signal Fast Switching Diode DO-35
+D1 D2,2,LED,LED_SMD:LED_0805_2012Metric,LCSC,C84256,KT-0805R,Light Emitting Diode 0805 Red
+BZ1,1,Buzzer,Buzzer_Beeper:Buzzer_12x9.5RM7.6,LCSC,C96093,TMB12A05,5V Active Electromagnetic Buzzer 12x9.5mm Pitch 7.6mm
+SW1,1,Push_Button,Button_Switch_THT:SW_PUSH_6mm,LCSC,C22383475,SH-6X6X5H-STM,6x6x5mm Tactile Push Button Switch THT
+J1,1,Conn_01x02_Socket (XT30),Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical,LCSC,C99102,XT30U-F,AMASS XT30U-F Vertical PCB Female Power Connector
+J2-J6,5,Conn_01x06_Pin,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,LCSC,C492401,1x6P 2.54mm Header,Generic connector single row 01x06 2.54mm
+J7,1,SWD header,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,LCSC,C492400,1x5P 2.54mm Header,Generic connector single row 01x05 2.54mm
+J8-J10,3,Conn_01x02_Pin,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,LCSC,C49257,1x2P 2.54mm Header,Generic connector single row 01x02 2.54mm
+C_BULK,1,470uF,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,LCSC,C72496,470uF 16V/25V 8x11.5,Radial Electrolytic Capacitor D8.0mm P3.50mm
+C_10U,2,10u,Capacitor_SMD:C_0805_2012Metric,LCSC,C15850,CL21A106KAYNNNE,10uF 25V X5R 0805 MLCC Capacitor
+C_100N,8,100n,Capacitor_SMD:C_0805_2012Metric,LCSC,C38141,0805B104K500NT,100nF 50V X7R 0805 MLCC Capacitor
+C_10N,2,10n,Capacitor_SMD:C_0805_2012Metric,LCSC,C1710,CL21B103KBANNNC,10nF 50V X7R 0805 MLCC Capacitor
+C_1N,2,1n,Capacitor_SMD:C_0805_2012Metric,LCSC,C17024,CL21B102KBANNNC,1nF 50V X7R 0805 MLCC Capacitor
+R_68R,2,68R,Resistor_SMD:R_0805_2012Metric,LCSC,C17772,0805W8F680JT5E,68 Ohm 1% 0805 SMD Resistor
+R_100R,2,100R,Resistor_SMD:R_0805_2012Metric,LCSC,C17408,0805W8F1000T5E,100 Ohm 1% 0805 SMD Resistor
+R_330R,2,330R,Resistor_SMD:R_0805_2012Metric,LCSC,C17630,0805W8F3300T5E,330 Ohm 1% 0805 SMD Resistor
+R_1K,2,1k,Resistor_SMD:R_0805_2012Metric,LCSC,C17513,0805W8F1001T5E,1k Ohm 1% 0805 SMD Resistor
+R_4K7,3,4k7,Resistor_SMD:R_0805_2012Metric,LCSC,C17673,0805W8F4701T5E,4.7k Ohm 1% 0805 SMD Resistor
+R_10K,2,10k,Resistor_SMD:R_0805_2012Metric,LCSC,C17414,0805W8F1002T5E,10k Ohm 1% 0805 SMD Resistor
+R_33K,2,33k,Resistor_SMD:R_0805_2012Metric,LCSC,C17635,0805W8F3302T5E,33k Ohm 1% 0805 SMD Resistor
+R_47K,2,47k,Resistor_SMD:R_0805_2012Metric,LCSC,C17713,0805W8F4702T5E,47k Ohm 1% 0805 SMD Resistor
