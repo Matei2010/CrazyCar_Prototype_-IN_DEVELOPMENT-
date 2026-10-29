@@ -1,4 +1,4 @@
-# 🏎️ CrazyCar — Autonomous Racing Car Prototype
+#  CrazyCar — Autonomous Racing Car Prototype
 
 <p align="center">
   **An autonomous miniature racing car in development for the Crazy Car Competition at FH JOANNEUM, Graz, Austria.**
@@ -12,7 +12,7 @@
 
 ---
 
-## 📖 Table of Contents
+##  Table of Contents
 
 - [Overview](#-overview)
 - [Project Goals](#-project-goals)
@@ -29,7 +29,7 @@
 
 ---
 
-## 🚗 Overview
+##  Overview
 
 **CrazyCar** is an autonomous miniature racing car project developed for the Crazy Car Competition at **FH JOANNEUM in Graz, Austria**.
 
@@ -41,18 +41,18 @@ This repository currently contains the KiCad electronics design files. The overa
 
 > ⚠️ **Work in progress:** Hardware specifications, component selection, and implementation details may change as the prototype evolves. Planned features are not necessarily implemented or tested yet.
 
-## 🎯 Project Goals
+##  Project Goals
 
 The main objectives are:
 
-- 🧠 **Autonomous navigation** — make driving decisions based on sensor measurements.
-- 📡 **Real-time distance measurement** — detect track boundaries and nearby walls.
-- ⚡ **High-performance motor control** — achieve responsive acceleration and precise steering through differential motor control, if supported by the final mechanical design.
-- 📏 **Compact construction** — fit the electronics, sensors, motors, and power system into a small racing platform.
-- 🔧 **Custom electronics** — develop and document the vehicle's electronic hardware using KiCad.
-- 🏁 **Competitive performance** — work toward consistent, fast, and repeatable laps.
+-  **Autonomous navigation** — make driving decisions based on sensor measurements.
+-  **Real-time distance measurement** — detect track boundaries and nearby walls.
+-  **High-performance motor control** — achieve responsive acceleration and precise steering through differential motor control, if supported by the final mechanical design.
+-  **Compact construction** — fit the electronics, sensors, motors, and power system into a small racing platform.
+-  **Custom electronics** — develop and document the vehicle's electronic hardware using KiCad.
+-  **Competitive performance** — work toward consistent, fast, and repeatable laps.
 
-## 🔩 Planned Hardware
+##  Planned Hardware
 
 The following components and design choices are planned or under consideration.
 
@@ -67,7 +67,7 @@ The following components and design choices are planned or under consideration.
 
 **Important:** This table describes the intended design, not a verified bill of materials. Final component models, electrical ratings, and compatibility must be confirmed before assembly.
 
-## 📡 Distance Sensing
+##  Distance Sensing
 
 The planned sensor arrangement uses **five VL53L0X time-of-flight distance sensors across the front of the vehicle**.
 
@@ -92,7 +92,7 @@ Using multiple VL53L0X sensors requires careful hardware and software integratio
 
 The final sensor arrangement and communication implementation remain subject to testing.
 
-## ⚙️ Motor System
+##  Motor System
 
 Two motor approaches are being considered:
 
@@ -113,7 +113,7 @@ Planned development areas include:
 
 The final motor driver, control interface, gear ratio, and power requirements have not yet been finalized.
 
-## 🧠 Autonomous Driving
+##  Autonomous Driving
 
 The long-term goal is to develop an autonomous driving system that converts distance measurements into motor commands.
 
@@ -129,7 +129,7 @@ Possible future improvements include sensor filtering, adaptive speed control, c
 
 The exact control algorithm and software architecture will be documented as they are implemented and validated.
 
-## 📂 Repository Structure
+##  Repository Structure
 
 The repository currently contains the KiCad design files.
 
@@ -154,7 +154,7 @@ The filenames are retained as they currently exist in the repository.
 
 As development progresses, additional directories may be introduced for embedded firmware, control software, mechanical CAD, testing tools, and technical documentation.
 
-## 🛠️ Opening the CAD Project
+##  Opening the CAD Project
 
 The electronics design is developed with KiCad.
 
@@ -177,7 +177,7 @@ Before manufacturing a PCB, verify the schematic, footprints, electrical rules, 
 
 **Note:** The current repository is primarily a CAD project. A complete firmware build or vehicle operating procedure is not documented here because the corresponding implementation and final hardware configuration have not yet been established.
 
-## 🗺️ Development Roadmap
+##  Development Roadmap
 
 The following roadmap describes intended development work. It does not imply that each item is already complete.
 
@@ -197,7 +197,7 @@ The following roadmap describes intended development work. It does not imply tha
 
 Progress will be updated as individual milestones are completed.
 
-## 📊 Current Status
+##  Current Status
 
 **Development stage: Early prototype / electronics design.**
 
@@ -205,7 +205,7 @@ The repository provides the initial KiCad design files for the project. The comp
 
 This project is intended to evolve through iterative design, assembly, testing, and optimization.
 
-## 🤝 Contributing
+##  Contributing
 
 Suggestions, technical feedback, and improvement ideas are welcome.
 
