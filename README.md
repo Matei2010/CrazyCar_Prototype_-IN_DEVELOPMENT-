@@ -85,7 +85,7 @@ Potential uses include:
 
 Using multiple VL53L0X sensors requires careful hardware and software integration.
 
-- **I²C addressing:** VL53L0X devices normally share the same default I²C address. Multiple sensors may require individual XSHUT control lines and sequential address configuration, or another suitable addressing arrangement.
+- **I²C addressing:** VL53L0X devices normally share the same default I²C address hence why i added an I2C multiplexer to not have this problem.
 - **Measurement timing:** Sensor readings must be collected quickly and consistently enough for the intended driving speed.
 - **Field of view:** Sensor positioning and mounting angles influence which parts of the track can be detected.
 - **Calibration:** Measurements may need filtering and calibration to improve reliability.
@@ -103,7 +103,7 @@ The planned wheel diameter is approximately **2 cm**, although the final dimensi
 
 The final motor choice will depend on torque, rotational speed, gearing, current consumption, weight, and available space.
 
-The motor system will need a compatible driver capable of handling the selected motors' operating and stall currents.
+The motor system will need a compatible driver capable of handling the selected motors' operating and stall currents. The current version uses one RZ7889 per wheel.
 
 Planned development areas include:
 
@@ -238,10 +238,10 @@ The following roadmap describes intended development work. It does not imply tha
 
 - [x] Create a public GitHub repository.
 - [x] Add the initial KiCad project, schematic, and PCB files.
-- [ ] Finalize the vehicle's physical layout.
-- [ ] Confirm the sensor, motor, and controller selections.
+- [x] Finalize the vehicle's physical layout.
+- [x] Confirm the sensor, motor, and controller selections.
 - [ ] Finalize the wheel dimensions and drivetrain configuration.
-- [ ] Complete the electronics design and review the PCB.
+- [x] Complete the electronics design and review the PCB.
 - [ ] Manufacture and assemble the electronics.
 - [ ] Integrate the five planned distance sensors.
 - [ ] Integrate the motor driver and drive system.
@@ -260,28 +260,15 @@ Progress will be updated as individual milestones are completed.
 
 ## Current Status
 
-**Development stage: Early prototype / electronics design.**
+**Development stage: finished schematic and layot/ waiting for approval.**
 
-The repository provides the initial KiCad design files for the project. The complete autonomous vehicle, final component configuration, and driving software are still under development.
+The repository provides the initial KiCad design files for the project. The complete autonomous vehicle and driving software are still under development.
 
 The current design direction includes five front-facing VL53L0X distance sensors, a compact motorized drivetrain, approximately 2 cm wheels, and a planned centrifugal fan for active suction and downforce.
 
 The mechanical layout, final component choices, and integration of these systems remain unfinished. The benefits of the planned suction system will need to be established through physical testing.
 
 This project is intended to evolve through iterative design, assembly, testing, and optimization.
-
-## Contributing
-
-Suggestions, technical feedback, and improvement ideas are welcome.
-
-If you want to contribute:
-
-1. Review the existing design and project goals.
-2. Describe the proposed improvement or report an issue.
-3. Include relevant technical details, measurements, or reproducible test results.
-4. For substantial changes, discuss the proposal before modifying the design.
-
-Changes to electrical hardware should be checked for voltage compatibility, current limits, thermal behavior, and physical constraints before implementation.
 
 ---
 
