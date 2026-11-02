@@ -493,6 +493,269 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016)
@@ -6809,6 +7072,12 @@
 		(uuid "4b0443be-4755-4b73-a4de-11ce3563639e")
 	)
 	(junction
+		(at 217.17 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5479e95d-e7a2-4c32-9b9a-d42d5c73664e")
+	)
+	(junction
 		(at 63.5 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6855,6 +7124,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88cdec95-77c8-485d-b343-b9ba4db91158")
+	)
+	(junction
+		(at 204.47 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "912db7e7-07a4-4498-8d42-64eaa3947320")
 	)
 	(junction
 		(at 205.74 31.75)
@@ -7148,6 +7423,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 120.65) (xy 248.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cff8089-7bff-469d-a03f-4013f14bc2a8")
+	)
+	(wire
+		(pts
 			(xy 33.02 27.94) (xy 53.34 27.94)
 		)
 		(stroke
@@ -7248,6 +7533,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 154.94) (xy 205.74 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d05ad8b-3a4f-44b7-8e7a-c519e6ce53e7")
+	)
+	(wire
+		(pts
 			(xy 171.45 62.23) (xy 171.45 69.85)
 		)
 		(stroke
@@ -7265,6 +7560,16 @@
 			(type default)
 		)
 		(uuid "2e33eebe-fc4d-48ed-b02a-6ffd6671518d")
+	)
+	(wire
+		(pts
+			(xy 217.17 154.94) (xy 222.25 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "311f2a3e-b180-4a6d-b71b-8e3ab5243a62")
 	)
 	(wire
 		(pts
@@ -7405,6 +7710,16 @@
 			(type default)
 		)
 		(uuid "3bb125be-26fa-40d5-b599-ab04afc52d01")
+	)
+	(wire
+		(pts
+			(xy 205.74 163.83) (xy 209.55 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da64990-d274-4a7a-9264-bc63b07644f8")
 	)
 	(wire
 		(pts
@@ -7708,6 +8023,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 132.08) (xy 247.65 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a64dd80-d3e3-4e15-8f4c-6e3d16190c33")
+	)
+	(wire
+		(pts
 			(xy 234.95 81.28) (xy 234.95 88.9)
 		)
 		(stroke
@@ -7795,6 +8120,16 @@
 			(type default)
 		)
 		(uuid "67948e2b-2139-429d-afc2-e685523b6f21")
+	)
+	(wire
+		(pts
+			(xy 53.34 21.59) (xy 53.34 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac5fbba-77ff-4965-b5d3-09e4bf1bfe51")
 	)
 	(wire
 		(pts
@@ -8168,6 +8503,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 154.94) (xy 217.17 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8f2ba1-1ce5-4ac7-89b0-7af69c9cab23")
+	)
+	(wire
+		(pts
 			(xy 82.55 57.15) (xy 82.55 50.8)
 		)
 		(stroke
@@ -8368,16 +8713,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 129.54) (xy 248.92 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a43b2424-5f4e-44b5-bc46-6b000d9ba7ba")
-	)
-	(wire
-		(pts
 			(xy 35.56 101.6) (xy 35.56 48.26)
 		)
 		(stroke
@@ -8478,6 +8813,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 154.94) (xy 217.17 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0505ce3-bf90-4bbe-accf-aad1b4e707e3")
+	)
+	(wire
+		(pts
 			(xy 38.1 187.96) (xy 38.1 191.77)
 		)
 		(stroke
@@ -8545,6 +8890,16 @@
 			(type default)
 		)
 		(uuid "b5ffd7db-8057-452f-ad4b-df18bf023126")
+	)
+	(wire
+		(pts
+			(xy 205.74 154.94) (xy 205.74 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b79754f2-2f6d-4ad8-8fb3-7629b11281f4")
 	)
 	(wire
 		(pts
@@ -8938,6 +9293,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 153.67) (xy 217.17 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e998887b-dd8c-4a1a-980c-1d0a392a1d9e")
+	)
+	(wire
+		(pts
 			(xy 125.73 39.37) (xy 125.73 46.99)
 		)
 		(stroke
@@ -8965,16 +9330,6 @@
 			(type default)
 		)
 		(uuid "eaffdcc0-a1f5-4aab-94f7-dccd343fcf0b")
-	)
-	(wire
-		(pts
-			(xy 247.65 129.54) (xy 248.92 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb8891b7-02a6-4497-97e8-e2ea7ddc8b4b")
 	)
 	(wire
 		(pts
@@ -9294,6 +9649,30 @@
 			)
 		)
 	)
+	(global_label "RX"
+		(shape input)
+		(at 212.09 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d6686d5-83aa-4b11-855a-d50bbe7ed3a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.5547 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "EN4"
 		(shape bidirectional)
 		(at 246.38 59.69 180)
@@ -9390,6 +9769,54 @@
 			)
 		)
 	)
+	(global_label "TX"
+		(shape input)
+		(at 212.09 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "576a5aba-7732-4df6-93dd-edbc4a4ba36e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.2523 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "XSHUT1"
+		(shape input)
+		(at 247.65 193.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b58b63b-e673-4697-abfa-f779e7a3d29c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.8923 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "IN4"
 		(shape bidirectional)
 		(at 177.8 57.15 180)
@@ -9414,6 +9841,30 @@
 			)
 		)
 	)
+	(global_label "XSHUT5"
+		(shape input)
+		(at 247.65 203.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64d1a744-8bc3-4430-9ca6-f1de5c8cd17b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.8923 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "V_BAT"
 		(shape bidirectional)
 		(at 248.92 120.65 90)
@@ -9427,6 +9878,30 @@
 		(uuid "675de7f4-1347-4360-9a37-8866de515d94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 248.92 111.1711 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "TX"
+		(shape input)
+		(at 247.65 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71247d67-0a6a-40f4-804f-00134803172e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.8123 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9702,6 +10177,30 @@
 			)
 		)
 	)
+	(global_label "XSHUT3"
+		(shape input)
+		(at 85.09 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93173f6a-1291-40ea-86ad-cded835efd0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.8477 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Vref"
 		(shape bidirectional)
 		(at 215.9 78.74 90)
@@ -9715,6 +10214,102 @@
 		(uuid "9a4df914-6590-4143-a32b-f8ddcc7e755e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 215.9 70.9544 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "XSHUT2"
+		(shape input)
+		(at 247.65 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b01c162-9c38-4a00-9f69-d2be7e2e6358")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.8923 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "XSHUT1"
+		(shape input)
+		(at 53.34 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d117081-cce6-4b29-a3a6-250ceee6d8ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.0977 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "XSHUT4"
+		(shape input)
+		(at 247.65 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9de22358-7f68-4578-a64a-7cc8ec90b4e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.8923 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "RX"
+		(shape input)
+		(at 247.65 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e31d14d-5941-4712-86b5-f4cd506b779b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.1147 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9787,6 +10382,30 @@
 		(uuid "a7b37dd3-1836-489a-9abd-4d130177fedb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.5492 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "XSHUT2"
+		(shape input)
+		(at 69.85 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "abb32230-8a98-444e-b0c3-fab92c9fa97c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.6077 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9894,6 +10513,30 @@
 			)
 		)
 	)
+	(global_label "XSHUT3"
+		(shape input)
+		(at 247.65 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4f3fb1b-3ba1-43ba-9a9f-451dbbdea803")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.8923 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "IN4"
 		(shape bidirectional)
 		(at 247.65 152.4 0)
@@ -9931,6 +10574,30 @@
 		(uuid "c5aab031-6f2e-4bdc-adc9-cba9229999b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.5587 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "XSHUT4"
+		(shape input)
+		(at 69.85 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c88fd45f-034d-4baf-9869-29a4dedaeb95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.6077 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10027,6 +10694,30 @@
 		(uuid "e5921d59-49af-4b09-b9b7-e5c8b02aa216")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.5587 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "XSHUT5"
+		(shape input)
+		(at 85.09 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4a97e12-d775-4afe-9d7c-a41ba3396312")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.8477 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10511,6 +11202,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 217.17 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "117e135a-5bad-44ca-99b3-81eb57f1c68d")
+		(property "Reference" "#PWR058"
+			(at 217.17 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 217.17 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 217.17 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5bf50a86-8cf6-4b67-96b4-c39edd113113")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND3")
 		(at 226.06 106.68 0)
 		(unit 1)
@@ -10740,6 +11509,84 @@
 			(project "carzycar"
 				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 53.34 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14dacab7-246e-43f9-bb81-f8929fa10aa6")
+		(property "Reference" "#PWR040"
+			(at 53.34 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 53.34 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 53.34 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0f49f5f-4b74-4059-8b86-59a6043ce592")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -12500,6 +13347,154 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 217.17 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fe2d55a-aae5-4617-a6b5-2738a3ccb8f6")
+		(property "Reference" "R18"
+			(at 219.71 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 219.71 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 215.392 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 217.17 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CATEGORY" ""
+			(at 217.17 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE_UNIT" "0.0032"
+			(at 217.17 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR" "LCSC"
+			(at 217.17 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "UNI-ROYAL"
+			(at 217.17 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ORDER_NO" "C17414"
+			(at 217.17 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART_NO" "0805W8F1002T5E"
+			(at 217.17 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9cec6cd8-177b-4e40-a142-5aa65a1d6810")
+		)
+		(pin "1"
+			(uuid "ed5572bc-7379-4479-a3bd-40ea5512ba9a")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND3")
 		(at 240.03 62.23 0)
 		(unit 1)
@@ -13561,6 +14556,84 @@
 			(project "carzycar"
 				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 69.85 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "483296bd-b404-4e92-b7ee-30c567537daa")
+		(property "Reference" "#PWR041"
+			(at 69.85 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 69.85 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 69.85 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7dfd4ba0-1cb9-43df-b174-6a89cc80e33c")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -14630,6 +15703,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 207.01 200.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "565df389-c31d-4149-8fb3-7b776a767a84")
+		(property "Reference" "J12"
+			(at 207.645 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 207.645 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 207.01 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 207.01 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b731d613-3453-4688-aeae-4660d7443325")
+		)
+		(pin "3"
+			(uuid "c0c4475a-090b-480d-a4eb-bad64ad60e0c")
+		)
+		(pin "1"
+			(uuid "430b7b7f-b732-4c1a-b5b5-3c3b02649fc0")
+		)
+		(pin "4"
+			(uuid "fe2f45d7-b54b-48ca-8ef6-69f95e94f5bb")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
 		(at 90.17 27.94 180)
 		(unit 1)
@@ -15166,6 +16325,230 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 85.09 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d6838ee-3245-4f2a-891c-eac454290b68")
+		(property "Reference" "#PWR044"
+			(at 85.09 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 85.09 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 85.09 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d915f151-e67d-4324-a467-82ab9d483305")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 213.36 163.83 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e9a82c6-a25e-4e42-8f02-488b55cc2900")
+		(property "Reference" "C16"
+			(at 213.36 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 213.36 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 217.17 162.8648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 213.36 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CATEGORY" ""
+			(at 213.36 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR" "LCSC"
+			(at 213.36 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 213.36 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ORDER_NO" "C49678"
+			(at 213.36 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART_NO" "CC0805KRX7R9BB104"
+			(at 213.36 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE_UNIT" "0.019"
+			(at 213.36 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8a0fa4e-5316-411a-abd0-df5733420971")
+		)
+		(pin "2"
+			(uuid "10ad230c-ff1d-41e0-8643-d49950fd1c93")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
 		(at 58.42 27.94 180)
 		(unit 1)
@@ -15317,6 +16700,162 @@
 			(project "carzycar"
 				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 69.85 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62c78ae5-f318-4ecd-b2d9-bf3e3d5e5670")
+		(property "Reference" "#PWR043"
+			(at 69.85 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 69.85 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 69.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a379e7d-2be1-4d10-9cc7-65a76ac5155d")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 85.09 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66bec269-5aeb-4095-9fda-db8fd4866ff6")
+		(property "Reference" "#PWR042"
+			(at 85.09 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 85.09 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 85.09 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a206dcd6-a5c6-4b0e-b1a9-31b7f19f89be")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -17017,7 +18556,7 @@
 				)
 			)
 		)
-		(property "ORDER_NO" "C2841849"
+		(property "ORDER_NO" "C2873352"
 			(at 125.73 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -17028,7 +18567,7 @@
 				)
 			)
 		)
-		(property "PART_NO" "TMCS1100A4QDR"
+		(property "PART_NO" "TMCS1100A3QDR"
 			(at 125.73 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -18159,6 +19698,84 @@
 	)
 	(symbol
 		(lib_id "power:GND3")
+		(at 204.47 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a340ea3b-984a-4969-9601-0ec717806c8c")
+		(property "Reference" "#PWR057"
+			(at 204.47 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 204.47 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69096b82-1837-45f5-814b-1bf40fe29718")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
 		(at 240.03 39.37 0)
 		(unit 1)
 		(body_style 1)
@@ -19280,7 +20897,7 @@
 				)
 			)
 		)
-		(property "ORDER_NO" "C2841849"
+		(property "ORDER_NO" "C2873352"
 			(at 125.73 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -19291,7 +20908,7 @@
 				)
 			)
 		)
-		(property "PART_NO" "TMCS1100A4QDR"
+		(property "PART_NO" "TMCS1100A3QDR"
 			(at 125.73 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -19790,6 +21407,84 @@
 			(project "carzycar"
 				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 205.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c10335bc-52dc-4a6f-96c3-8e9a52b0e80d")
+		(property "Reference" "#PWR056"
+			(at 212.09 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b2a1788d-3007-41f5-a875-865f1fcb7536")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -21900,6 +23595,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 212.09 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0c07f37-03fd-4a6a-b32f-c52cf170f97c")
+		(property "Reference" "#PWR055"
+			(at 212.09 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 212.09 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 212.09 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ccbeffa-c190-47a5-9747-529fa15784fd")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 81.28 101.6 0)
 		(unit 1)
@@ -22485,6 +24258,152 @@
 			(project "carzycar"
 				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Push_Button")
+		(at 209.55 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e46325c5-a2d6-4596-b59f-c4710198c93a")
+		(property "Reference" "SW2"
+			(at 209.55 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Push_Button"
+			(at 209.55 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 209.423 158.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Common 6mmx6mm Push Button"
+			(at 209.55 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CATEGORY" ""
+			(at 209.55 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE_UNIT" "0.0361"
+			(at 209.55 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR" "LCSC"
+			(at 209.55 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "CAX"
+			(at 209.55 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ORDER_NO" "C53431127"
+			(at 209.55 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART_NO" "TS-6645DD-6x6x5-100"
+			(at 209.55 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aca6e890-0630-48fd-9930-ec7a1cc7b040")
+		)
+		(pin "2"
+			(uuid "9d917107-32c5-4135-aab7-53ba156b490e")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
