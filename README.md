@@ -20,9 +20,9 @@ Hardware
 
 The current design includes five VL53L0X time-of-flight distance sensors at the front of the car. Since these sensors use the same I2C address, an I2C multiplexer is included in the design.
 
-For the motors, I am planning to use RZ7889 motor drivers. The motors are not fully decided yet. Possible options are high-power N20 geared motors or custom geared coreless motors.
+For the motors, I am planning to use RZ7889 motor drivers. The motors are not fully decided yet. Possible options are high-power N20 geared motors or custom geared coreless motors.At the moment i am leaning more towards n20 Motors.
 
-The car is also planned to have a centrifugal fan underneath it to create suction and increase grip. At the moment i am leaning more towards n20 Motors.
+The car is also planned to have a centrifugal fan underneath it to create suction and increase grip. 
 
 
 PCB
