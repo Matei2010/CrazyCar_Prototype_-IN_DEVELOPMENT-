@@ -1560,6 +1560,276 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Battery"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Multiple-cell battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "batt voltage-source cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Battery_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.286 -1.27)
+					(end 2.286 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 -2.032)
+					(end 1.524 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Buzzer"
 			(pin_names
 				(offset 0.0254)
@@ -4853,6 +5123,321 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Motor:Fan_3pin"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "M"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Fan_3pin"
+				(at 2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fan, tacho output, 3-pin connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Fan Motor tacho"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "FanPinHeader*P2.54mm*Vertical* PinHeader*P2.54mm*Vertical* TerminalBlock*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fan_3pin_0_0"
+				(polyline
+					(pts
+						(xy -5.08 -0.508) (xy -5.334 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -0.508) (xy -5.207 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -4.572 -1.016)
+					(mid -5.08 -1.5218)
+					(end -5.588 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.588 -1.016)
+					(mid -5.4392 -0.6568)
+					(end -5.08 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 0) (xy -4.064 -1.524) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fan_3pin_0_1"
+				(polyline
+					(pts
+						(xy -4.064 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid -0.0015 -1.6352)
+					(end -2.54 -3.048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.7272) (xy 0 2.0828)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.524)
+					(radius 3.2512)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -3.048)
+					(mid 0 -1.4782)
+					(end 2.54 -3.048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.7752) (xy 0 -5.1816)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 0 -7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -3.048)
+					(mid 0.047 -1.6085)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fan_3pin_1_1"
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "Tacho"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Motor:Motor_DC"
 			(pin_names
 				(offset 0)
@@ -5231,6 +5816,80 @@
 								(size 1 1)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RZ7889:Ersatz_für_extern_esc"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Ersatz_für_extern_esc_0_1"
+				(rectangle
+					(start 1.27 1.27)
+					(end -6.35 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -6876,8 +7535,8 @@
 		(uuid "1d42a114-571e-4f4a-90e5-1b015e6e54ae")
 	)
 	(rectangle
-		(start 104.14 170.18)
-		(end 154.94 195.58)
+		(start 104.14 167.64)
+		(end 180.34 224.79)
 		(stroke
 			(width 0)
 			(type default)
@@ -6935,6 +7594,18 @@
 		)
 		(uuid "65d3ef6a-9337-4076-bcfc-e7b300c7316f")
 	)
+	(rectangle
+		(start 138.43 194.31)
+		(end 162.56 205.74)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9eb58920-dbb1-439b-8b93-4f923f6879cb")
+	)
 	(text "Distance Sensors\n"
 		(exclude_from_sim no)
 		(at 60.96 18.034 0)
@@ -6974,6 +7645,16 @@
 			)
 		)
 		(uuid "9ba0c88c-efed-4fb1-a1c6-973cf63bd58e")
+	)
+	(text "Placeholders\n"
+		(exclude_from_sim no)
+		(at 141.986 169.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a9344566-3585-430a-a36c-78761e363231")
 	)
 	(text "IMU\n"
 		(exclude_from_sim no)
@@ -7018,6 +7699,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17289d56-7bfc-420e-84f3-9ffc2b1bf5ea")
+	)
+	(junction
+		(at 38.1 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fbd7fc4-76c3-45be-b186-fbaf51735317")
 	)
 	(junction
 		(at 161.29 114.3)
@@ -7162,6 +7849,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98336afe-cc2b-4076-b3a2-26da07f05406")
+	)
+	(junction
+		(at 38.1 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a09d9939-c930-418c-9c60-382d8e4642ea")
 	)
 	(junction
 		(at 266.7 170.18)
@@ -7739,7 +8432,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 191.77) (xy 45.72 191.77)
+			(xy 30.48 191.77) (xy 38.1 191.77)
 		)
 		(stroke
 			(width 0)
@@ -8139,7 +8832,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 184.15) (xy 44.45 184.15)
+			(xy 30.48 184.15) (xy 38.1 184.15)
 		)
 		(stroke
 			(width 0)
@@ -8176,6 +8869,16 @@
 			(type default)
 		)
 		(uuid "67948e2b-2139-429d-afc2-e685523b6f21")
+	)
+	(wire
+		(pts
+			(xy 38.1 191.77) (xy 45.72 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a02180f-7613-4fc8-9e1d-b0b6abc8ea51")
 	)
 	(wire
 		(pts
@@ -8459,7 +9162,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 184.15) (xy 38.1 185.42)
+			(xy 30.48 184.15) (xy 30.48 185.42)
 		)
 		(stroke
 			(width 0)
@@ -8839,6 +9542,26 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 187.96) (xy 38.1 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac2f28cd-1f61-4b46-b294-d0d422c7d989")
+	)
+	(wire
+		(pts
+			(xy 38.1 184.15) (xy 44.45 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad4b6daa-78df-4666-82a5-acccd52f9357")
+	)
+	(wire
+		(pts
 			(xy 115.57 31.75) (xy 115.57 43.18)
 		)
 		(stroke
@@ -8889,7 +9612,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 187.96) (xy 38.1 191.77)
+			(xy 30.48 187.96) (xy 30.48 191.77)
 		)
 		(stroke
 			(width 0)
@@ -9076,6 +9799,16 @@
 			(type default)
 		)
 		(uuid "c043a08c-f87b-4f01-991c-8e4f87f05982")
+	)
+	(wire
+		(pts
+			(xy 38.1 184.15) (xy 38.1 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c06648ee-c5e9-4252-86d8-17a36812a48a")
 	)
 	(wire
 		(pts
@@ -9586,6 +10319,16 @@
 			(type default)
 		)
 		(uuid "ff958fe3-5636-4dfc-95c6-c14fb05585fa")
+	)
+	(label "Placeholder ESC for impeller{slash}brushless motor"
+		(at 129.54 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0aa44cee-509c-40bb-8d1c-e242ef9b87e1")
 	)
 	(global_label "IN3"
 		(shape bidirectional)
@@ -14223,6 +14966,125 @@
 		)
 	)
 	(symbol
+		(lib_id "RZ7889:Ersatz_für_extern_esc")
+		(at 152.4 196.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fea584e-711c-4f14-817f-04d7daf966ca")
+		(property "Reference" "U7"
+			(at 154.94 198.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 152.4 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Graupner Ultra Control 10A 1-2S BLS"
+			(at 152.4 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR" "Rotorama"
+			(at 152.4 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Graupner"
+			(at 152.4 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART_NO" "https://www.rotorama.de/product/graupner-ultra-control-10a-1-2s-blheli-s"
+			(at 152.4 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE_UNIT" "3.99"
+			(at 152.4 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 185.42 83.82 0)
 		(unit 1)
@@ -18074,6 +18936,152 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 33.02 187.96 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e78e3e5-4048-4d98-973f-37ee62d6d397")
+		(property "Reference" "J11"
+			(at 33.655 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 33.655 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 33.02 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 33.02 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CATEGORY" ""
+			(at 33.02 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE_UNIT" "0.1920"
+			(at 33.02 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR" "LCSC"
+			(at 33.02 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "AMASS"
+			(at 33.02 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ORDER_NO" "C99102"
+			(at 33.02 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART_NO" "XT30U-F"
+			(at 33.02 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ed095f5-a414-4331-b4a6-0c1ec99ebe75")
+		)
+		(pin "2"
+			(uuid "0c5962a8-e257-4b3c-ba48-11fa1e2ea865")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 170.18 135.89 90)
 		(unit 1)
@@ -19253,7 +20261,7 @@
 				)
 			)
 		)
-		(property "PRICE_UNIT" "0,0026"
+		(property "PRICE_UNIT" "0.0026"
 			(at 81.28 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -20393,7 +21401,7 @@
 				)
 			)
 		)
-		(property "PRICE_UNIT" "4,61"
+		(property "PRICE_UNIT" "4.61"
 			(at 138.43 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -21529,6 +22537,17 @@
 				)
 			)
 		)
+		(property "PRICE_UNIT" "3.55"
+			(at 57.15 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b3ca2b98-af3b-4db8-8bfe-9d2df1b11a7e")
 		)
@@ -22240,7 +23259,7 @@
 				)
 			)
 		)
-		(property "PRICE_UNIT" "4,61"
+		(property "PRICE_UNIT" "4.61"
 			(at 114.3 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -24110,7 +25129,7 @@
 				)
 			)
 		)
-		(property "PRICE_UNIT" "0,0026"
+		(property "PRICE_UNIT" "0.0026"
 			(at 81.28 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -24770,6 +25789,165 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Battery")
+		(at 115.57 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5aec640-6894-484c-9dfa-da348db7ee7d")
+		(property "Reference" "BT1"
+			(at 119.38 214.0584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8.4V"
+			(at 119.38 216.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 214.376 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 214.376 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CNHL Ministar HV 450mAh 2S 70C"
+			(at 115.57 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 115.57 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 115.57 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 115.57 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR" "Rotorama"
+			(at 115.57 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "CNHL"
+			(at 115.57 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART_NO" "https://www.rotorama.de/product/cnhl-ministar-hv-450mah-2s-70c"
+			(at 115.57 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE_UNIT" "5.69"
+			(at 115.57 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "972ccba9-82b3-4e1f-99dd-2c65660144b7")
+		)
+		(pin "1"
+			(uuid "9bfe4337-d7a0-4a29-a510-285cf25f3832")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 168.91 114.3 0)
 		(unit 1)
@@ -25146,6 +26324,124 @@
 			(project "carzycar"
 				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Fan_3pin")
+		(at 165.1 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f053b4cd-e116-4cdb-89d1-957d792d8033")
+		(property "Reference" "M3"
+			(at 170.18 182.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Brushless mtor"
+			(at 170.18 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 183.896 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 183.896 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Happymodel RS0802 20000Kv Brushless mtor"
+			(at 165.1 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR" "Rotorama"
+			(at 165.1 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ORDER_NO" "https://www.rotorama.de/product/happymodel-rs0802-20000kv-2"
+			(at 165.1 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE_UNIT" "9.69"
+			(at 165.1 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7f8b8571-9288-473f-993e-7928d799006c")
+		)
+		(pin "2"
+			(uuid "012e85a7-9706-4dd2-aa32-7e47e5b7ec09")
+		)
+		(pin "1"
+			(uuid "d082a4ed-e00e-4940-af34-2db0f0a431c5")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "M3")
 					(unit 1)
 				)
 			)
@@ -25605,7 +26901,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 33.02 187.96 180)
+		(at 25.4 187.96 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25616,7 +26912,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb64ee15-688c-4710-8c24-fcf0fd7d3702")
 		(property "Reference" "J9"
-			(at 33.655 180.34 0)
+			(at 26.035 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25626,7 +26922,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 33.655 182.88 0)
+			(at 26.035 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25636,7 +26932,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
-			(at 33.02 187.96 0)
+			(at 25.4 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25647,7 +26943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 187.96 0)
+			(at 25.4 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25658,7 +26954,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 33.02 187.96 0)
+			(at 25.4 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25669,7 +26965,7 @@
 			)
 		)
 		(property "CATEGORY" ""
-			(at 33.02 187.96 0)
+			(at 25.4 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25680,7 +26976,7 @@
 			)
 		)
 		(property "PRICE_UNIT" "0.1920"
-			(at 33.02 187.96 0)
+			(at 25.4 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25691,7 +26987,7 @@
 			)
 		)
 		(property "DISTRIBUTOR" "LCSC"
-			(at 33.02 187.96 0)
+			(at 25.4 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25702,7 +26998,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 33.02 187.96 0)
+			(at 25.4 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25713,7 +27009,7 @@
 			)
 		)
 		(property "ORDER_NO" "C99102"
-			(at 33.02 187.96 0)
+			(at 25.4 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25724,7 +27020,7 @@
 			)
 		)
 		(property "PART_NO" "XT30U-F"
-			(at 33.02 187.96 0)
+			(at 25.4 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
