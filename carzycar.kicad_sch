@@ -7701,6 +7701,12 @@
 		(uuid "17289d56-7bfc-420e-84f3-9ffc2b1bf5ea")
 	)
 	(junction
+		(at 175.26 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a3e6082-be1c-464f-986c-fa797af7d5fb")
+	)
+	(junction
 		(at 38.1 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7827,6 +7833,12 @@
 		(uuid "88cdec95-77c8-485d-b343-b9ba4db91158")
 	)
 	(junction
+		(at 175.26 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89e0e296-0d4b-4d05-b0d9-902174a34a86")
+	)
+	(junction
 		(at 204.47 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7899,22 +7911,28 @@
 		(uuid "c06f9832-e6ad-4baa-b008-430619788803")
 	)
 	(junction
+		(at 260.35 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5079206-f41a-46f0-897a-fd43576f66f6")
+	)
+	(junction
 		(at 165.1 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7b40ea0-978b-4443-b9d9-80f987402212")
 	)
 	(junction
-		(at 264.16 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4d97c7d-d55b-42dc-ba3e-7acea12a1f69")
-	)
-	(junction
 		(at 68.58 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5075e29-3400-4c1c-8ad2-f72ac9d894c4")
+	)
+	(junction
+		(at 175.26 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8fe9734-edc3-4993-9a64-5226d6d0d544")
 	)
 	(junction
 		(at 234.95 81.28)
@@ -7933,6 +7951,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e12c843c-9767-4418-97ab-64cea028548d")
+	)
+	(junction
+		(at 175.26 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e45f4e88-d252-4e7c-8b6f-66318bfb2259")
 	)
 	(junction
 		(at 125.73 39.37)
@@ -8182,7 +8206,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 46.99) (xy 177.8 46.99)
+			(xy 125.73 46.99) (xy 175.26 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8192,7 +8216,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 165.1) (xy 264.16 165.1)
+			(xy 261.62 165.1) (xy 267.97 165.1)
 		)
 		(stroke
 			(width 0)
@@ -8312,6 +8336,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 71.12) (xy 175.26 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329c6e4d-2d17-434c-89f5-cd419e227087")
+	)
+	(wire
+		(pts
 			(xy 83.82 30.48) (xy 85.09 30.48)
 		)
 		(stroke
@@ -8399,6 +8433,16 @@
 			(type default)
 		)
 		(uuid "3a3c9ff8-41da-4f83-a672-56268c6c513a")
+	)
+	(wire
+		(pts
+			(xy 175.26 45.72) (xy 175.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b01dea3-5020-4bb1-8bd8-bfa54929a214")
 	)
 	(wire
 		(pts
@@ -8512,7 +8556,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 62.23) (xy 177.8 62.23)
+			(xy 171.45 62.23) (xy 175.26 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8702,6 +8746,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 62.23) (xy 177.8 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52314500-e5c1-4295-bc69-a2a0f9cacb3f")
+	)
+	(wire
+		(pts
 			(xy 115.57 53.34) (xy 115.57 69.85)
 		)
 		(stroke
@@ -8869,6 +8923,16 @@
 			(type default)
 		)
 		(uuid "67948e2b-2139-429d-afc2-e685523b6f21")
+	)
+	(wire
+		(pts
+			(xy 175.26 62.23) (xy 175.26 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ba5f04-5c50-4003-860a-7bfa80381b39")
 	)
 	(wire
 		(pts
@@ -9232,6 +9296,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 36.83) (xy 175.26 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5a64e3-92b3-4fd4-ad16-de4814e012e1")
+	)
+	(wire
+		(pts
 			(xy 95.25 119.38) (xy 95.25 97.79)
 		)
 		(stroke
@@ -9499,16 +9573,6 @@
 			(type default)
 		)
 		(uuid "a81fe673-6926-4af9-a07e-1cee8ce9ed86")
-	)
-	(wire
-		(pts
-			(xy 264.16 165.1) (xy 267.97 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8690ca3-5dbb-4f78-9bd1-238c047cb746")
 	)
 	(wire
 		(pts
@@ -9982,7 +10046,17 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 36.83) (xy 171.45 36.83)
+			(xy 175.26 46.99) (xy 177.8 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d54b0d52-77bc-4a53-9cdb-27af53b081aa")
+	)
+	(wire
+		(pts
+			(xy 177.8 36.83) (xy 175.26 36.83)
 		)
 		(stroke
 			(width 0)
@@ -9999,6 +10073,16 @@
 			(type default)
 		)
 		(uuid "d6b1563c-8254-4bac-a61d-f8667c05599a")
+	)
+	(wire
+		(pts
+			(xy 175.26 72.39) (xy 177.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9658f61-deb2-4dd1-8daf-ab8325700e91")
 	)
 	(wire
 		(pts
@@ -10029,6 +10113,16 @@
 			(type default)
 		)
 		(uuid "dafd27bb-7b90-45d4-b0a0-75d650aa052b")
+	)
+	(wire
+		(pts
+			(xy 175.26 36.83) (xy 171.45 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba45efa-9a82-4ea2-b2fa-c19d5b642652")
 	)
 	(wire
 		(pts
@@ -10172,7 +10266,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 72.39) (xy 177.8 72.39)
+			(xy 125.73 72.39) (xy 175.26 72.39)
 		)
 		(stroke
 			(width 0)
@@ -13066,6 +13160,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 64.77 212.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c530d90-46a0-4074-a97b-8b9b9d0f10ba")
+		(property "Reference" "J15"
+			(at 66.04 210.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "sensor"
+			(at 66.04 213.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cheapest Aliexpress Vl53L0x sensors"
+			(at 64.77 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CATEGORY" ""
+			(at 64.77 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Sailstart"
+			(at 64.77 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ORDER_NO" "https://de.aliexpress.com/item/1005007639367196.html?spm=a2g0o.productlist.main.21.763277f9yze71z&algo_pvid=104d0c2e-4efc-4441-adf6-1249f90befb6&algo_exp_id=104d0c2e-4efc-4441-adf6-1249f90befb6-20&pdp_ext_f=%7B%22order%22%3A%22831%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%213.09%212.84%21%21%2122.27%2120.50%21%400b88ab8a17945753462285271e0f01%2112000041603650837%21sea%21AT%210%21X%211%210%21n_tag%3A-29919%3Bd%3Af54f98fb%3Bm03_new_user%3A-29895&curPageLogUid=bZ3LkQM9F6hp&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007639367196%7C_p_origin_prod%3A"
+			(at 64.77 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART_NO" ""
+			(at 64.77 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE_UNIT" "3"
+			(at 64.77 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR" ""
+			(at 64.77 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "1a73a393-32f5-4f1b-b0f5-4c3399fc89c6")
+		)
+		(pin "2"
+			(uuid "8297ac50-327c-451e-bb37-bac3d5b217ca")
+		)
+		(pin "1"
+			(uuid "f44b1be7-1ef7-4a72-836c-035c63ccc1cf")
+		)
+		(pin "4"
+			(uuid "b03bd2c5-cbf3-47d1-9967-1fcae90c0b5e")
+		)
+		(pin "3"
+			(uuid "d3f77cde-ff6e-4011-9389-aa4e4524ce1d")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 241.3 105.41 90)
 		(unit 1)
@@ -13206,6 +13457,154 @@
 			(project "carzycar"
 				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 175.26 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e460aa2-694c-4052-97b3-f909028673be")
+		(property "Reference" "C21"
+			(at 179.07 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 179.07 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 176.2252 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CATEGORY" ""
+			(at 175.26 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR" "LCSC"
+			(at 175.26 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "muRata"
+			(at 175.26 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ORDER_NO" "C440198"
+			(at 175.26 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART_NO" "GRM21BR61H106KE43L"
+			(at 175.26 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE_UNIT" "0.182"
+			(at 175.26 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76329909-dc0b-48b5-8014-91edc4ca0d73")
+		)
+		(pin "2"
+			(uuid "aefb88d8-357c-4eea-ba73-297613204bf3")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -13585,6 +13984,163 @@
 			(project "carzycar"
 				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 48.26 212.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "267b6a81-14e9-4180-a736-30cb0590c742")
+		(property "Reference" "J14"
+			(at 49.53 210.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "sensor"
+			(at 49.53 213.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cheapest Aliexpress Vl53L0x sensors"
+			(at 48.26 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CATEGORY" ""
+			(at 48.26 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Sailstart"
+			(at 48.26 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ORDER_NO" "https://de.aliexpress.com/item/1005007639367196.html?spm=a2g0o.productlist.main.21.763277f9yze71z&algo_pvid=104d0c2e-4efc-4441-adf6-1249f90befb6&algo_exp_id=104d0c2e-4efc-4441-adf6-1249f90befb6-20&pdp_ext_f=%7B%22order%22%3A%22831%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%213.09%212.84%21%21%2122.27%2120.50%21%400b88ab8a17945753462285271e0f01%2112000041603650837%21sea%21AT%210%21X%211%210%21n_tag%3A-29919%3Bd%3Af54f98fb%3Bm03_new_user%3A-29895&curPageLogUid=bZ3LkQM9F6hp&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007639367196%7C_p_origin_prod%3A"
+			(at 48.26 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART_NO" ""
+			(at 48.26 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE_UNIT" "3"
+			(at 48.26 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR" ""
+			(at 48.26 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "b47708d4-9666-4c38-a947-b83bd19356db")
+		)
+		(pin "2"
+			(uuid "75a9dfc2-0f8e-41ac-8103-d90d8162acee")
+		)
+		(pin "1"
+			(uuid "071c64e9-c9f9-4c38-ac81-22f07d13b3fc")
+		)
+		(pin "4"
+			(uuid "75817923-d507-4eaa-a2fe-9bb8fb9ba795")
+		)
+		(pin "3"
+			(uuid "086c125d-3271-42b0-bc0c-4fa8e5accb2b")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -16443,6 +16999,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 31.75 210.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51a10cc0-377a-4fd8-9d73-ad198b4c08f0")
+		(property "Reference" "J13"
+			(at 33.02 209.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "sensor"
+			(at 33.02 212.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cheapest Aliexpress Vl53L0x sensors"
+			(at 31.75 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CATEGORY" ""
+			(at 31.75 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Sailstart"
+			(at 31.75 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ORDER_NO" "https://de.aliexpress.com/item/1005007639367196.html?spm=a2g0o.productlist.main.21.763277f9yze71z&algo_pvid=104d0c2e-4efc-4441-adf6-1249f90befb6&algo_exp_id=104d0c2e-4efc-4441-adf6-1249f90befb6-20&pdp_ext_f=%7B%22order%22%3A%22831%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%213.09%212.84%21%21%2122.27%2120.50%21%400b88ab8a17945753462285271e0f01%2112000041603650837%21sea%21AT%210%21X%211%210%21n_tag%3A-29919%3Bd%3Af54f98fb%3Bm03_new_user%3A-29895&curPageLogUid=bZ3LkQM9F6hp&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007639367196%7C_p_origin_prod%3A"
+			(at 31.75 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART_NO" ""
+			(at 31.75 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE_UNIT" "3"
+			(at 31.75 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR" ""
+			(at 31.75 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "71a17385-0b25-43db-94f0-5a310bfa0094")
+		)
+		(pin "2"
+			(uuid "5eabb6b3-11a1-4a3f-b4c3-e1095e5af339")
+		)
+		(pin "1"
+			(uuid "7e76a1f3-23d7-4919-af63-62249ce92b1f")
+		)
+		(pin "4"
+			(uuid "20192ac5-02b1-40ad-87f8-307fe4e3cf2f")
+		)
+		(pin "3"
+			(uuid "c5ffa971-16e1-472b-a4c4-8f508fb723a5")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 58.42 62.23 0)
 		(unit 1)
@@ -17341,6 +18054,163 @@
 			(project "carzycar"
 				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 31.75 224.79 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60da8f3b-7692-4161-a3db-9cb687463e96")
+		(property "Reference" "J17"
+			(at 33.02 223.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "sensor"
+			(at 33.02 226.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cheapest Aliexpress Vl53L0x sensors"
+			(at 31.75 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CATEGORY" ""
+			(at 31.75 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Sailstart"
+			(at 31.75 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ORDER_NO" "https://de.aliexpress.com/item/1005007639367196.html?spm=a2g0o.productlist.main.21.763277f9yze71z&algo_pvid=104d0c2e-4efc-4441-adf6-1249f90befb6&algo_exp_id=104d0c2e-4efc-4441-adf6-1249f90befb6-20&pdp_ext_f=%7B%22order%22%3A%22831%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%213.09%212.84%21%21%2122.27%2120.50%21%400b88ab8a17945753462285271e0f01%2112000041603650837%21sea%21AT%210%21X%211%210%21n_tag%3A-29919%3Bd%3Af54f98fb%3Bm03_new_user%3A-29895&curPageLogUid=bZ3LkQM9F6hp&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007639367196%7C_p_origin_prod%3A"
+			(at 31.75 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART_NO" ""
+			(at 31.75 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE_UNIT" "3"
+			(at 31.75 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR" ""
+			(at 31.75 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "0d09d248-40b8-4898-a784-20b1f496c4f8")
+		)
+		(pin "2"
+			(uuid "637ebec9-00bc-4b2c-95c5-9e05e60d259c")
+		)
+		(pin "1"
+			(uuid "550af76a-0d0d-4c12-b195-e33c170958a6")
+		)
+		(pin "4"
+			(uuid "36907ad9-72e1-42f6-b58c-7005cba41cb0")
+		)
+		(pin "3"
+			(uuid "d4fb51b7-796f-4bd2-aa57-15dbb1603102")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -18704,6 +19574,163 @@
 			(project "carzycar"
 				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 80.01 212.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71d3d6fb-edd5-498a-9987-d1194aadeb97")
+		(property "Reference" "J16"
+			(at 81.28 210.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "sensor"
+			(at 81.28 213.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cheapest Aliexpress Vl53L0x sensors"
+			(at 80.01 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CATEGORY" ""
+			(at 80.01 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Sailstart"
+			(at 80.01 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ORDER_NO" "https://de.aliexpress.com/item/1005007639367196.html?spm=a2g0o.productlist.main.21.763277f9yze71z&algo_pvid=104d0c2e-4efc-4441-adf6-1249f90befb6&algo_exp_id=104d0c2e-4efc-4441-adf6-1249f90befb6-20&pdp_ext_f=%7B%22order%22%3A%22831%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%213.09%212.84%21%21%2122.27%2120.50%21%400b88ab8a17945753462285271e0f01%2112000041603650837%21sea%21AT%210%21X%211%210%21n_tag%3A-29919%3Bd%3Af54f98fb%3Bm03_new_user%3A-29895&curPageLogUid=bZ3LkQM9F6hp&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007639367196%7C_p_origin_prod%3A"
+			(at 80.01 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART_NO" ""
+			(at 80.01 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE_UNIT" "3"
+			(at 80.01 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR" ""
+			(at 80.01 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "b7ac3733-1db7-46f0-8d65-a4747f5e1b45")
+		)
+		(pin "2"
+			(uuid "e51e8ccd-c46c-4009-8d76-21e4d2659255")
+		)
+		(pin "1"
+			(uuid "f5341812-08af-4da8-ad15-157c32144ec3")
+		)
+		(pin "4"
+			(uuid "23ed76b2-bcaa-474a-b9d5-d30aff63e826")
+		)
+		(pin "3"
+			(uuid "65a2c5f7-c4c1-4fb8-96b7-155a44aa1f2d")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -21017,6 +22044,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+7.5V")
+		(at 260.35 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b4d95c0-ccbd-4753-9ec7-0fa805544848")
+		(property "Reference" "#PWR049"
+			(at 260.35 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+7.4V"
+			(at 260.35 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
+			(at 260.35 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff0dbace-a1a6-4ae8-8b4f-903447cfd32e")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 228.6 77.47 90)
 		(unit 1)
@@ -22648,6 +23753,154 @@
 			(project "carzycar"
 				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 175.26 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb84b4fc-b2da-4d75-ba69-8fe3f0d8a2ca")
+		(property "Reference" "C22"
+			(at 179.07 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 179.07 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 176.2252 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CATEGORY" ""
+			(at 175.26 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR" "LCSC"
+			(at 175.26 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "muRata"
+			(at 175.26 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ORDER_NO" "C440198"
+			(at 175.26 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART_NO" "GRM21BR61H106KE43L"
+			(at 175.26 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE_UNIT" "0.182"
+			(at 175.26 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b88bdeb-6260-4882-866b-83a89bcd1dd3")
+		)
+		(pin "2"
+			(uuid "87b777be-766e-4686-8902-1f473f816d4f")
+		)
+		(instances
+			(project "carzycar"
+				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -25498,84 +26751,6 @@
 			(project "carzycar"
 				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 264.16 165.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e231c5e4-37c8-417c-a2fc-a441d1f2c2bb")
-		(property "Reference" "#PWR049"
-			(at 264.16 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 264.16 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 264.16 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "910455aa-dda1-4423-9e3e-4c937afc87e5")
-		)
-		(instances
-			(project "carzycar"
-				(path "/1a564276-6752-45b4-a33a-f4bcbe787514"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
